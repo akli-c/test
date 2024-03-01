@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "ESNext",
+    "outDir": ".build",
+    "moduleResolution": "node",
+    "lib": ["ESNext"],
+    "rootDir": "./",
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}
